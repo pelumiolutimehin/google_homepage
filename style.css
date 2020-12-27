@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav a{
+    margin-right: 20px;
+    margin-top: 10px;
+}
+nav a.topimage {
+    width: 20px;
+    height: 20px;
+    background-color: green;
+    border-radius: 7px;/*o*/
+}
+
+#centerdisplay{
+    margin-top: 200px;
+
+}
+
+#logo {
+    text-align: center;
+}
+
+#search_bar {
+    margin-top: 10px;
+    text-align: center;
+}
+
+#bar{
+    padding: 10px 0px;
+    outline: rgb(95, 94, 93);
+    width: 460px;
+    border-radius: 16px;
+    border: 1.5px solid rgb(187, 181, 181);
+}
